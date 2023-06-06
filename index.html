@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hai, moots!</title>
+    <!-- import bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
+    <!-- bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- NavBar -->
+      <nav class="navbar navbar-expand-lg navbar-dark p-2" style="background-color: #352F59;">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="assets/icon-girl.jpeg" alt="icon" width="100%" height="50" class="d-inline-block align-text-top" /></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"><i class="bi bi-house-door-fill"></i> Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#byf"><i class="bi bi-arrow-through-heart"></i> About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-danger" href="#dni"><i class="bi bi-exclamation-triangle"></i> Do Not Follow If</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </nav>
+    <!-- NavBar end -->
+
+    <!-- section 1 -->
+    <section class="card p-3">
+        <div class="card text-center text-light">
+            <div class="card-header">
+              <h1>Hai, welcome to my card!</h1>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Card ini isinya cuman tombol tombol yang bisa dipencet</h5>
+              <p class="card-text text-info">Please read the card before you follow me</p>
+              <div id="liveAlertPlaceholder"></div>
+              <button type="button" class="btn text-light" id="liveAlertBtn">Tertarik berteman?</button>
+            </div>
+          </div>
+    </section>
+    
+    <!-- section 1 end -->
+    <!-- section 2 -->
+    <section id="byf" class="p-3 m-3 rounded">
+        <h1 class="text-center">BYF!!</h1>
+        <div class="image d-flex justify-content-center p-2">
+          <img class="rounded-circle" src="assets/kuromi icon.jpeg" alt="kuromi" width="200" />
+      </div>
+      <br>
+      <div class="d-flex justify-content-center"> 
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#aboutMeModal">
+          About Me
+        </button>
+      </div>
+          <div class="modal fade" id="aboutMeModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="aboutMeModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="staticBackdropLabel">Nice to meet you!</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <ul>
+                    <li>Call me fe</li>
+                    <li>16</li>
+                    <li>ISTJ</li>
+                    <li>she/her</li>
+                    <li class="text-warning-emphasis">knightsP yang hampir gila</li>
+                  </ul>
+                  <p>used harsh word sometimes and capslock a lot. Hobinya baca story enstars dan nangisin oshi yg kena event KARENA OSHI LANGGANAN KONTEN, orgnya ghoib kadang suka jbjb kadang ngilang (sibuk nguli), multifandom but mostly i tweet about enstars, i'm a arashiless
+
+                  </p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br>
+          
+          <div class="d-flex justify-content-center">
+            <button type="button" class="btn btn-warning text-light" data-bs-toggle="modal" data-bs-target="#myFavModal">
+              My favs :3
+            </button>
+          </div>
+          <div class="modal fade" id="myFavModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="myFavModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="staticBackdropLabel">yeyyyy</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <p>
+                    ! games: <span class="text-bg-primary">enstars</span>, obey me, helios, twisted wonderland, project sekai <br>
+                    ! AniManga: hunter x hunter, kuroko no basket, bsd, detective conan, all Ghibli's movies <br>
+                    ! favs: all members of the knights, miyano, <span class="text-bg-success">hattori heiji</span>, dokja, shin yoosung
+                  </p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br>
+          <div class="d-flex justify-content-center">
+            <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#otpNotpModal">
+              OTP-NOTP
+            </button>
+          </div>
+          <div class="modal fade" id="otpNotpModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="otpNotpModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="staticBackdropLabel">DNI</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <ul>
+                    <li>
+                      OTP : <br>
+                        - RITSUMAOOO <br>
+                        - Hiyojun, Junhiyo yes <br>
+                        - buat izumi, leo, tsukasa, arashi semua shipper aku sukaaaa <br>
+                    </li>
+                    <li>
+                      NOTP?
+                      <p class="text-danger">im okay with anything but no incest</p>
+                    </li>
+                  </ul>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+    </section>
+    <!-- section 2 end -->
+    <!-- section 3 -->
+    
+    <section id="dni" class="p-3 m-3 rounded">
+      <h1 class="text-center">DNI!!</h1>
+      <div class="image d-flex justify-content-center p-2">
+        <img class="rounded-circle" src="assets/kuromi icon.jpeg" alt="kuromi" width="200" />
+    </div>
+    <br>  
+      <div class="d-flex justify-content-center"> 
+        <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+          Do Not Follow If You...
+        </button>
+      </div>
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="staticBackdropLabel">DNI</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <ul>
+            <li>Dislike my interest</li>
+            <li>Homophobic</li>
+            <li>Problematic</li>
+            <li>Racist</li>
+            <li class="text-danger">you are a sensitive person</li>
+          </ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+    </section>
+    <!-- section 3 end -->
+    <!-- footer -->
+    <section id="footer">
+      <div>
+        <div style="background-color: #352F59; padding: 15px;" class="text-white">
+          <p class="font-weight-bold">Mau mutualan di medsos lain?</p>
+          <ul style="list-style: none;">
+            <li><a style="text-decoration: none; color: aliceblue;" target="_blank" href=""><i class="bi bi-instagram"></i> Instagram</a></li>
+            <li><a style="text-decoration: none; color: aliceblue;" target="_blank" href=""><i class="bi bi-github"></i> Github</a></li>
+            <li><a style="text-decoration: none; color: aliceblue;" target="_blank" href=""><i class="bi bi-tiktok"></i> Tiktok</a></li>
+            <li><a style="text-decoration: none; color: aliceblue;" target="_blank" href=""><i class="bi bi-discord"></i> Discord</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    
+    <!-- footer end -->
+    <!-- script -->
+    <script>
+        const alertPlaceholder = document.getElementById('liveAlertPlaceholder')
+        const appendAlert = (message, type) => {
+          const wrapper = document.createElement('div')
+          wrapper.innerHTML = [
+            `<div class="alert alert-${type} alert-dismissible" role="alert">`,
+            `   <div>${message}</div>`,
+            '   <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>',
+            '</div>'
+          ].join('')
+            
+          alertPlaceholder.append(wrapper)
+        }
+
+        const alertTrigger = document.getElementById('liveAlertBtn')
+        if (alertTrigger) {
+          alertTrigger.addEventListener('click', () => {
+           appendAlert('Ayo berteman!', 'success')
+          })
+        }
+    </script>
+    <!-- import script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,26 @@
+/* body {
+  background-image: url("assets/background/bg\ 2.jpeg");
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 1000px;
+} */
+
+#liveAlertBtn {
+  background-color: #8170f0;
+}
+
+.card-header {
+  background-color: #332a69;
+}
+
+.card-body {
+  background-color: #605892;
+}
+
+#byf {
+  background-color: #605892;
+}
+
+#dni {
+  background-color: #605892;
+}
